@@ -62,7 +62,7 @@ function Timer() {
           <br/>
           <Pet />
           <div className="controls">
-            <button onClick={handleStartPause}>
+            <button aria-label="Button" onClick={handleStartPause}>
               {isRunning ? 'Pause' : 'Start'}
             </button>
             <button onClick={handleReset}>Reset</button>
@@ -71,7 +71,7 @@ function Timer() {
           </div>
           <div className="auto-break-toggle">
             Automatic Breaks:
-            <input
+            <input aria-label="Field"
               type="checkbox"
               id="auto-break-toggle"
               checked={isAutoBreak}
