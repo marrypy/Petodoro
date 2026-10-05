@@ -4,7 +4,7 @@ function Pet() {
     
     return (
         <div className="pet-container">
-        <img 
+        <img alt="" 
             src={petImage} 
             alt="Pomodoro Pet"
             className="pet-image" 
